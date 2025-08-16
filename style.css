@@ -1,0 +1,107 @@
+
+body{
+    display: flex;
+    justify-content: center;   
+    align-items: flex-start;   
+    margin: 0;
+    padding: 0;
+    background-color: #f3e6d8; 
+    font-family: 'Outfit';
+}
+.box{
+    width: 600px;
+    height: 1650px;
+    background: #ffffffff;
+    display: flex;
+    flex-direction: column;    
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 25px; 
+   
+}
+h1{
+    color: #302d2cff;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    width: 600px;
+    height: 250px;
+    margin-top: 15px;
+    padding: 0;
+    border-radius: 15px;
+    display: block;      
+    margin: 15px auto;
+}
+.one{
+    color: #5f574eff;
+    font-size: 16px;
+}
+
+.pur{
+    color: #7b284fff;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.first{
+    background-color: #fff5faff;
+}
+.first li{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.bro{
+    color:  #5f574eff;
+}
+p{
+    font-size: 16px;
+}
+.brown{
+    color: #5f574eff;
+}
+h2{
+    color: #854632ff;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    margin-left: 15px;
+}
+.brown li::marker{
+    color:  #854632ff;
+}
+.brown li{
+    margin-bottom: 15px;
+    color:  #5f574eff;
+}
+.brown2{
+    list-style-type: decimal;
+}
+.brown2 li::marker{
+    color:  #854632ff;  
+}
+.brown2 li{
+    margin-bottom: 15px;
+    color:  #5f574eff;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    border: none;
+    padding: 10px 15px;
+}
+table tr{
+    border-bottom: 0.1px solid #5f574eff;
+}
+.final{
+    color: #5f574eff;
+    font-weight: 400;
+}
+.final2{
+    color: #854632ff ;
+    font-weight: 650;
+    font-family: 'Outfit';
+}
